@@ -1,3 +1,20 @@
+//For an unosrted array, given a value k, list all the triplets of numbers that sum upto k
+//No duplicates
+//Complexity: O(n^2)
+//I/P format: ./a.out <k> <array_separated_by_single_space>
+//eg.: ./a.out 6 3 7 1 2 3 4 5 1 -1 7 3
+
+//O/P:
+//3 - 3,2;1,4;2,3;4,1;
+//7 - 2,-1;
+//1 - 3,4;2,5;3,4;
+//2 - 3,3;7,-1;1,5;
+//3 - 1,4;
+//4 - 3,1;5,-1;
+
+//indicates 3,3,2; 3,1,4; 3,2,3; 3,4,1;
+//and so on
+
 #include <iostream>
 #include <unordered_map>
 #include <vector>
