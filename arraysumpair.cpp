@@ -48,7 +48,9 @@ int main(int argc,char* argv[]){
 					//if found, check if the value is not 0
 					if(htabElem[key] != 0){
 						//print the pair
-						cout<<endl<<"("<<params[i]<<","<<key<<")";	
+						for(int j=0;j<htabElem[key];j++){
+							cout<<endl<<"("<<params[i]<<","<<key<<")";	
+						}
 					}
 				}
 			}
