@@ -1,3 +1,9 @@
+//For an unosrted array, given a value k, list all the pairs of numbers that sum upto k
+//No duplicates
+//Complexity: O(n)
+//I/P format: ./a.out <k> <array_separated_by_single_space>
+//eg.: ./a.out 6 3 7 1 2 3 4 5 1 -1 7 3
+
 #include <iostream>
 #include <unordered_map>
 #include <vector>
@@ -56,8 +62,6 @@ int main(int argc,char* argv[]){
 			}
 		}
 	}
-
-	
 
 	cout<<endl;
 	return 0;
