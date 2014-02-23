@@ -1,8 +1,8 @@
 /*
-TextQueryProblem
 
 Problem:
 
+TextQueryProblem
 Write a program that takes two strings as input, one is a query, and the other is a string that may or may not contain that query. The program needs to find if the query is contained within the body string. 
 
 Details:
