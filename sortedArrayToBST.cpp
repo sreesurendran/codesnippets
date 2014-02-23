@@ -14,6 +14,7 @@ Node* newNode(int value){
 	temp->value = value;
 	temp->left = NULL;
 	temp->right = NULL;
+	return temp;
 }
 
 Node* sortedArrayToBST(vector<int> input,int start,int end){
