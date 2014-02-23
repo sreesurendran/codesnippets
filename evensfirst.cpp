@@ -7,14 +7,12 @@ void evens_first(int* array, int length){
 	int even_ctr = length - 1;
 	for(int odd_ctr = 0;odd_ctr<even_ctr;odd_ctr++){
 		if(array[odd_ctr] % 2 != 0){
-			if(even_ctr >=0 ){
-				while(array[even_ctr] % 2 != 0){
-					even_ctr--;
-				}
-				if(even_ctr >= odd_ctr){
-					swap(array[even_ctr],array[odd_ctr]);
-					even_ctr--;
-				}
+			while(even_ctr >= 0 && array[even_ctr] % 2 != 0){
+				even_ctr--;
+			}
+			if(even_ctr >= odd_ctr){
+				swap(array[even_ctr],array[odd_ctr]);
+				even_ctr--;
 			}
 		}
 	}
