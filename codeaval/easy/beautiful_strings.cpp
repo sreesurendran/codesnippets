@@ -14,6 +14,19 @@ Solution:-
 to the most frequent letter, 25 to the next, etc. If two letters are tied for most frequent, 
 it doesn't matter which of them gets which value, since the sum will be the same. 
 
+Sample invocation from command line:
+
+./a.out ABbCcc
+	Expected output: 152
+./a.out Good luck in the Facebook Hacker Cup this year!
+	Expected output: 754
+./a.out Ignore punctuation, please :)
+	Expected output: 491
+./a.out Sometimes test cases are hard to make up.
+	Expected output: 729
+./a.out So I just go consult Professor Dalves
+	Expected output: 646
+
 */
 
 #include <iostream>
