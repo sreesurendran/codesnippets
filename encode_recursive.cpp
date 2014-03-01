@@ -1,5 +1,19 @@
 /* 
 
+A message containing letters from A-Z is being encoded to numbers using the following mapping:
+
+‘A’ -> 1
+‘B’ -> 2
+…
+‘Z’ -> 26
+
+Given an encoded message containing digits, determine the total number of ways to decode it.
+
+For example, given encoded message “12″, it could be decoded as “AB” (1 2) or “L” (12). The number of ways 
+decoding “12″ is 2.
+
+Solution:-
+
 Use recursion with backtracking. Each time we try to encode the first digit in the message to a letter, 
 or we can encode the first two digits into a letter if possible, we then recursively do the samething for the 
 sub-string. When there is no way to encode (e.g., encountering a single ’0′, or encountering ’32′ and tyring 
