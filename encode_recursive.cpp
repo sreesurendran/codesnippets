@@ -1,4 +1,10 @@
-/* Use recursion with backtracking. Each time we try to encode the first digit in the message to a letter, or we can encode the first two digits into a letter if possible, we then recursively do the samething for the sub-string. When there is no way to encode (e.g., encountering a single ’0′, or encountering ’32′ and tyring to encode the two-digits to a letter), we simply return. If there is no sub-string to go on, we know we have found a valid solution, so we increase the count.
+/* 
+
+Use recursion with backtracking. Each time we try to encode the first digit in the message to a letter, 
+or we can encode the first two digits into a letter if possible, we then recursively do the samething for the 
+sub-string. When there is no way to encode (e.g., encountering a single ’0′, or encountering ’32′ and tyring 
+to encode the two-digits to a letter), we simply return. If there is no sub-string to go on, we know we have 
+found a valid solution, so we increase the count.
 
 */
 
