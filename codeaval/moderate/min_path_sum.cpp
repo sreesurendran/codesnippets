@@ -1,3 +1,13 @@
+/*
+
+Description:
+
+You are given an n*n matrix of integers. You can move only right and down. Calculate the minimal 
+path sum from the top left to the bottom right.
+
+*/
+
+
 #include <iostream>
 #include <vector>
 #include <climits>
