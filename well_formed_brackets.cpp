@@ -6,6 +6,11 @@ The task is to write a function Brackets(int n) that prints all combinations of 
 (())  ()()   
 ((()))  (()())  (())()  ()(())  ()()()
 
+Solution:
+
+The recursion is taking advantage of the fact that you can never add more opening brackets than the desired number of pairs, and you can never add more closing brackets than opening brackets.
+
+
 */
 
 #include <iostream>
